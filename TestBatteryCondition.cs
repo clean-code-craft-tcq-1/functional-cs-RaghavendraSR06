@@ -1,4 +1,4 @@
-namespace Checker
+namespace BatteryManagementSystem
 {
     class TestBatteryCondition
     {
