@@ -1,11 +1,11 @@
 using System;
 
-namespace Checker
+namespace BatteryManagementSystem
 {
     class BatteryStatus
     {
       
-        public static void CheckBatteryCondition(float temperature, float soc, float chargeRate)
+        public static void CheckBatteryStatus(float temperature, float soc, float chargeRate)
         {
             TestBatteryCondition.CheckTemperature(temperature);
             TestBatteryCondition.CheckChargeState(soc);
